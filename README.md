@@ -13,7 +13,9 @@ Tomando como referencia lo visto en el componente formativo “Construcción de 
 __________________
 
 Estructura del proyecto Laravel
+
 ![Estructura de Proyecto](public/proyecto-php-laravel.png)
+
 El folder app/Http/Controllers/Api contiene el archivo controlador "usuarioController.php" el cual se encarga de gestionar las solicitudes de los usuarios.
 
 El folder app/Models contiene los archivos ORM (Object-Relational Mapping) que permiten la interacción con las bases de datos relacionales, en este caso la entidad a trabajar se representa con la clase "Usuario.php"
@@ -26,6 +28,7 @@ Ejecución local del proyecto
 Instalacion "Composer" en Windows https://getcomposer.org/doc/00-intro.md#installation-windows (Composer es una herramienta de gestion de dependencias para proyectos realizado en PHP)
 
 En la raiz del proyecto ejecutar el comando 
+
     php artisan serve 
 
         INFO  Server running on [http://127.0.0.1:8000]. 
